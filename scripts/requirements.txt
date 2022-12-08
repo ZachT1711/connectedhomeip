@@ -18,7 +18,7 @@ bitstring==3.1.7
     # via -r requirements.in
 brotli==1.0.9
     # via flask-compress
-certifi==2020.12.5
+certifi==2022.12.7
     # via requests
 cffi==1.14.5
     # via cryptography
@@ -47,15 +47,15 @@ ecdsa==0.16.1
     # via -r requirements.in
 filelock==3.0.12
     # via virtualenv
-flask-compress==1.9.0
-    # via gdbgui
-flask-socketio==2.9.6
-    # via gdbgui
 flask==0.12.5
     # via
     #   flask-compress
     #   flask-socketio
     #   gdbgui
+flask-compress==1.9.0
+    # via gdbgui
+flask-socketio==2.9.6
+    # via gdbgui
 future==0.18.2
     # via
     #   -r requirements.in
@@ -72,10 +72,10 @@ idna==2.10
     # via requests
 intelhex==2.3.0
     # via -r requirements.in
-ipython-genutils==0.2.0
-    # via traitlets
 ipython==7.21.0
     # via -r requirements.in
+ipython-genutils==0.2.0
+    # via traitlets
 itsdangerous==1.1.0
     # via flask
 jedi==0.18.0
@@ -130,17 +130,6 @@ pygments==2.8.1
     #   ipython
 pykwalify==1.8.0
     # via west
-pyobjc-core==7.1 ; sys_platform == "darwin"
-    # via
-    #   -r requirements.in
-    #   pyobjc-framework-cocoa
-    #   pyobjc-framework-corebluetooth
-pyobjc-framework-cocoa==7.1 ; sys_platform == "darwin"
-    # via
-    #   -r requirements.in
-    #   pyobjc-framework-corebluetooth
-pyobjc-framework-corebluetooth==7.1 ; sys_platform == "darwin"
-    # via -r requirements.in
 pyparsing==2.3.1
     # via
     #   -r requirements.in
@@ -163,9 +152,7 @@ reedsolo==1.5.4
     # via -r requirements.in
 requests==2.25.1
     # via -r requirements.in
-ruamel.yaml.clib==0.2.2
-    # via ruamel.yaml
-ruamel.yaml==0.16.13
+ruamel-yaml==0.16.13
     # via pykwalify
 six==1.15.0
     # via
